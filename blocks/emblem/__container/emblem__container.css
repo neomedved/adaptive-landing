@@ -1,0 +1,15 @@
+.emblem__container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 82px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+    .emblem__container {
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

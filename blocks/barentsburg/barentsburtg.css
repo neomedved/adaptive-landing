@@ -1,0 +1,37 @@
+@import url("__map/barentsburg__map.css");
+@import url("__title/barentsburg__title.css");
+@import url("__coord/barentsburg__coord.css");
+@import url("__text/barentsburg__text.css");
+@import url("__url-heading/barentsburg__url-heading.css");
+@import url("__url/barentsburg__url.css");
+@import url("__link/barentsburg__link.css");
+@import url("__container/barentsburg__container.css");
+
+.barentsburg {
+    margin: 85px auto 0;
+    max-width: 1184px;
+    width: calc(100% - 96px);
+    min-width: 928px;
+}
+
+@media screen and (max-width: 1279px) {
+    .barentsburg {
+        margin-top: 102px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .barentsburg {
+        max-width: 928px;
+        width: calc(100% - 48px);
+        min-width: 720px;    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .barentsburg {
+        margin-top: 64px;
+        width: 100%;
+        min-width: 320px;    
+    }
+}

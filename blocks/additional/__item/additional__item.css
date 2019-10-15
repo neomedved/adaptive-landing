@@ -1,0 +1,43 @@
+@import url("_buhta/additional__item_buhta.css");
+@import url("_cherepovetz/additional__item_cherepovetz.css");
+@import url("_nikola/additional__item_nikola.css");
+@import url("_shihan/additional__item_shihan.css");
+
+.additional__item {
+    position: relative;
+    width: 284px;
+    height: 330px;
+    padding: 30px 18px 30px;
+    box-sizing: border-box;
+    background-size: cover;
+    border-radius: 5px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .additional__item {
+        width: calc((100% - 30px)/4);
+        height: 280px;
+        padding: 24px 16px 16px 14px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .additional__item:first-of-type {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional__item {
+        margin-bottom: 24px;
+    }
+
+    .additional__item:last-of-type {
+        margin-bottom: 0;
+    }
+}

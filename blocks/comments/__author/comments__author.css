@@ -1,0 +1,12 @@
+.comments__author {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+    margin: 24px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__author {
+        margin-top: 17px;
+    }
+}

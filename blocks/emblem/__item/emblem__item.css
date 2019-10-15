@@ -1,0 +1,32 @@
+.emblem__item {
+    width: 208px;
+    margin: 0 calc((100% - 1040px)/4) 0 0;
+}
+
+.emblem__item:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .emblem__item {
+        margin-right: calc((100% - 624px)/2);
+    }
+
+    .emblem__item:nth-of-type(3) {
+        margin-right: 0;
+    }
+
+    .emblem__item:first-of-type {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .emblem__item {
+        margin: 0 0 56px;
+    }
+
+    .emblem__item:last-of-type {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.video__icon-play {
+    background-image: url("../../../images/icon_play.svg");
+    background-size: cover;
+    display: block;
+    width: 41px;
+    height: 41px;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}

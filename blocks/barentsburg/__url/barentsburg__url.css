@@ -1,0 +1,27 @@
+.barentsburg__url {
+    display: inline-block;
+    width: 282px;
+    padding-left: 120px;
+    padding-top: 48px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1279px) {
+    .barentsburg__url {
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .barentsburg__url {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .barentsburg__url {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 0;
+    }
+}

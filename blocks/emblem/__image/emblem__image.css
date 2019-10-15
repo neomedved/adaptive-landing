@@ -1,0 +1,11 @@
+.emblem__image {
+    display: block;
+    height: 226px;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .emblem__image {
+        height: 200px;
+    }
+}

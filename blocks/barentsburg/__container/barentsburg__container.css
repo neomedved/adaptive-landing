@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .barentsburg__container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: calc(100% - 32px);
+        margin: 32px auto 0;
+    }
+}

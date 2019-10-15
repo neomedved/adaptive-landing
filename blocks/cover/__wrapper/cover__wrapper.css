@@ -1,0 +1,14 @@
+.cover__wrapper {
+    background-color: #2A2C2F;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.cover:hover .cover__wrapper {
+    opacity: .8;
+}

@@ -1,0 +1,17 @@
+.places__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .places__header {
+        flex-direction: column;
+        max-width: 720px;
+        min-width: 288px;
+        width: calc(100% - 32px);
+        margin: auto;
+    }
+}

@@ -1,0 +1,27 @@
+.additional__container {
+    margin: 72px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+    .additional__container {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .additional__container {
+        margin-top: 56px;
+        width: 584px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional__container {
+        margin-top: 48px;
+        width: 284px;
+    }
+}

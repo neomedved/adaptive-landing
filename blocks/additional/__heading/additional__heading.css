@@ -1,0 +1,24 @@
+.additional__heading {
+    width: 100%;
+    margin: 0;
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+        width: 240px;
+    }
+}
