@@ -153,10 +153,6 @@
          url("../fonts/Inter/Inter-BlackItalic.woff") format("woff");
 }
 
-/*a {
-    transition: opacity .5s ease;
-}*/
-
 a:hover {
     opacity: .7;
 }
